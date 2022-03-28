@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="tdd" />
+        <module name="testes-unitarios-junit" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="tdd" options="--add-modules java.base" />
+      <module name="testes-unitarios-junit" options="--add-modules java.base" />
     </option>
   </component>
 </project>
